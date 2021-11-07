@@ -1,0 +1,190 @@
+header {
+    width: 80%;
+    margin: auto !important;
+    background-color: rgba(0, 0, 0, 0.438);
+    border: 4px black solid;
+    border-radius: 20px;
+}
+#hlavninadpis {
+    margin-top: 120px;
+    margin-bottom: 25px;
+    font-size: 50px;
+    color: white;
+}
+body {
+    background-image: url(./img/bg2.jpg);
+    background-size: cover;
+
+
+}
+main {
+    width: 80%;
+    margin-top: 140px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    color: white;
+}
+.image {
+    width: 80%;
+    min-width: 200px;
+    border: solid whitesmoke 2px !important;
+    border-radius: 20px;
+    opacity: 0.5;
+    transition: 0.5s;
+    text-align: center;
+    margin-bottom: 8%;
+    margin-top: 5%;
+}
+.image:hover {
+    opacity: 1 !important;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-timing-function: cubic-bezier(0.4, 0.5, 0.6, 0.4);
+    scale: 1.15;
+    filter: none !important;
+}
+.predmet {
+    font-size: 25px;
+    margin-bottom: 40px;
+    
+}
+#prvnirocnik {
+    background-color: rgba(0, 0, 0, 0.438);
+    border-radius: 20px;
+    padding: 5%;
+    margin-top: 10px;
+}
+
+.item {
+    margin-bottom: 5px;
+    color: #3db1f000;
+    transition: 1s;
+}
+
+.flex-boximage:hover .item {
+    color: #ffffff !important;
+    transition: 1s;
+}
+#software {
+    background-color: rgba(0, 0, 0, 0.438);
+    border-radius: 20px;
+    padding: 5%;
+    margin-top: 10px;
+}
+.imgs {
+    width: 70%;
+    height: 90%;
+    min-width: 200px;
+    border-radius: 20px;
+    opacity: 0.5;
+    transition: 0.5s;
+    text-align: center;
+}
+.imgs:hover {
+    transition: 0.5s;
+    opacity: 1;
+    
+}
+#odkazy {
+    background-color: rgba(0, 0, 0, 0.438);
+    border-radius: 20px;
+    padding: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#zajimavavidea {
+    background-color: rgba(0, 0, 0, 0.438);
+    border-radius: 20px;
+    padding: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer {
+    position: relative;
+    bottom: 0%;
+    
+}
+.footer-item {
+    color: whitesmoke;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+h2 {
+    margin-bottom: 40px !important;
+    padding-top: 25px;
+}
+.fa-github {
+    color: white;
+    transition: 0.3s;
+}
+
+.fa-github:hover {
+    color: black;
+    transition: 0.3s;
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+
+    
+    
+    main {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .navbar {
+        width: 100% !important;
+    }
+    
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    header {
+        width: 100%;
+    }
+    main {
+        width: 80%;
+    }
+    .fixed-top {
+        width: 100% !important;
+    }
+    #hlavninadpis {
+        margin-top: 150px !important;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+
+    .navbar {
+        width: 100% !important;
+    }
+    #hlavninadpis {
+        margin-top: 200px !important;
+    }
+    
+}
+
+@media only screen and (max-width: 400px) {
+
+    
+    
+    main {
+        width: 98%;
+        
+    }
+    #hlavninadpis {
+        margin-top: 250px !important;
+    }
+    .fixed-top {
+        width: 100% !important;
+        margin-bottom: 150px !important;
+    }
+}
